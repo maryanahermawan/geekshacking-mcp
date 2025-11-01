@@ -21,3 +21,10 @@ package-dir = { "" = "." }
 [tool.setuptools.packages.find]
 where = [ "." ]
 
+[tool.poetry]
+name = "todo-mcp"
+version = "0.1.0"
+packages = [
+    { include = "todo_mcp" },
+    { include = "todo_db" }
+]
